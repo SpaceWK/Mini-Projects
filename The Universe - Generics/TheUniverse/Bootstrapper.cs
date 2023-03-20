@@ -3,6 +3,7 @@ using RemoteLearning.TheUniverse.Application.AddStar;
 using RemoteLearning.TheUniverse.Application.GetAllStars;
 using RemoteLearning.TheUniverse.Infrastructure;
 using RemoteLearning.TheUniverse.Presentation;
+using System.Collections.Generic;
 
 namespace RemoteLearning.TheUniverse
 {
@@ -20,9 +21,9 @@ namespace RemoteLearning.TheUniverse
 
         private static void ConfigureRequestBus()
         {
-            requestBus.RegisterHandler(typeof(AddStarRequest), typeof(AddStarRequestHandler));
-            requestBus.RegisterHandler(typeof(AddGalaxyRequest), typeof(AddGalaxyRequestHandler));
-            requestBus.RegisterHandler(typeof(GetAllStarsRequest), typeof(GetAllStarsRequestHandler));
+            requestBus.RegisterHandler<AddStarRequest, bool, AddStarRequestHandler>();
+            requestBus.RegisterHandler<AddGalaxyRequest, bool, AddGalaxyRequestHandler>();
+            requestBus.RegisterHandler<GetAllStarsRequest, List<StarInfo>, GetAllStarsRequestHandler>();
         }
 
         private static void DisplayApplicationHeader()

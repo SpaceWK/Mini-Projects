@@ -17,10 +17,11 @@ namespace RemoteLearning.TheUniverse.Presentation.Commands
         public void Execute()
         {
             GetAllStarsRequest request = new GetAllStarsRequest();
-            List<StarInfo> starInfos = (List<StarInfo>)requestBus.Send(request);
+            List<StarInfo> starInfos = requestBus.Send<GetAllStarsRequest, List<StarInfo>>(request);
 
             DisplayStars(starInfos);
         }
+
 
         private static void DisplayStars(IEnumerable<StarInfo> starInfos)
         {

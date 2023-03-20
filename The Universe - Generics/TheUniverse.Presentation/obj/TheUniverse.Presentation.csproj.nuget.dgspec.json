@@ -1,0 +1,242 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Nagarro\\Remote_Learning\\The Universe - Generics\\TheUniverse.Presentation\\TheUniverse.Presentation.csproj": {}
+  },
+  "projects": {
+    "D:\\Nagarro\\Remote_Learning\\The Universe - Generics\\TheUniverse.Application\\TheUniverse.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Nagarro\\Remote_Learning\\The Universe - Generics\\TheUniverse.Application\\TheUniverse.Application.csproj",
+        "projectName": "RemoteLearning.TheUniverse.Application",
+        "projectPath": "D:\\Nagarro\\Remote_Learning\\The Universe - Generics\\TheUniverse.Application\\TheUniverse.Application.csproj",
+        "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
+        "outputPath": "D:\\Nagarro\\Remote_Learning\\The Universe - Generics\\TheUniverse.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Alex\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {
+              "D:\\Nagarro\\Remote_Learning\\The Universe - Generics\\TheUniverse.Domain\\TheUniverse.Domain.csproj": {
+                "projectPath": "D:\\Nagarro\\Remote_Learning\\The Universe - Generics\\TheUniverse.Domain\\TheUniverse.Domain.csproj"
+              },
+              "D:\\Nagarro\\Remote_Learning\\The Universe - Generics\\TheUniverse.Infrastructure\\TheUniverse.Infrastructure.csproj": {
+                "projectPath": "D:\\Nagarro\\Remote_Learning\\The Universe - Generics\\TheUniverse.Infrastructure\\TheUniverse.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Nagarro\\Remote_Learning\\The Universe - Generics\\TheUniverse.Domain\\TheUniverse.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Nagarro\\Remote_Learning\\The Universe - Generics\\TheUniverse.Domain\\TheUniverse.Domain.csproj",
+        "projectName": "RemoteLearning.TheUniverse.Domain",
+        "projectPath": "D:\\Nagarro\\Remote_Learning\\The Universe - Generics\\TheUniverse.Domain\\TheUniverse.Domain.csproj",
+        "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
+        "outputPath": "D:\\Nagarro\\Remote_Learning\\The Universe - Generics\\TheUniverse.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Alex\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Nagarro\\Remote_Learning\\The Universe - Generics\\TheUniverse.Infrastructure\\TheUniverse.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Nagarro\\Remote_Learning\\The Universe - Generics\\TheUniverse.Infrastructure\\TheUniverse.Infrastructure.csproj",
+        "projectName": "RemoteLearning.TheUniverse.Infrastructure",
+        "projectPath": "D:\\Nagarro\\Remote_Learning\\The Universe - Generics\\TheUniverse.Infrastructure\\TheUniverse.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
+        "outputPath": "D:\\Nagarro\\Remote_Learning\\The Universe - Generics\\TheUniverse.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Alex\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Nagarro\\Remote_Learning\\The Universe - Generics\\TheUniverse.Presentation\\TheUniverse.Presentation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Nagarro\\Remote_Learning\\The Universe - Generics\\TheUniverse.Presentation\\TheUniverse.Presentation.csproj",
+        "projectName": "RemoteLearning.TheUniverse.Presentation",
+        "projectPath": "D:\\Nagarro\\Remote_Learning\\The Universe - Generics\\TheUniverse.Presentation\\TheUniverse.Presentation.csproj",
+        "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
+        "outputPath": "D:\\Nagarro\\Remote_Learning\\The Universe - Generics\\TheUniverse.Presentation\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Alex\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {
+              "D:\\Nagarro\\Remote_Learning\\The Universe - Generics\\TheUniverse.Application\\TheUniverse.Application.csproj": {
+                "projectPath": "D:\\Nagarro\\Remote_Learning\\The Universe - Generics\\TheUniverse.Application\\TheUniverse.Application.csproj"
+              },
+              "D:\\Nagarro\\Remote_Learning\\The Universe - Generics\\TheUniverse.Infrastructure\\TheUniverse.Infrastructure.csproj": {
+                "projectPath": "D:\\Nagarro\\Remote_Learning\\The Universe - Generics\\TheUniverse.Infrastructure\\TheUniverse.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

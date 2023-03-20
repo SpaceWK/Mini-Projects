@@ -1,5 +1,6 @@
 ﻿using System;
 using RemoteLearning.TheUniverse.Application.AddGalaxy;
+using RemoteLearning.TheUniverse.Application.AddStar;
 using RemoteLearning.TheUniverse.Infrastructure;
 
 namespace RemoteLearning.TheUniverse.Presentation.Commands
@@ -15,17 +16,19 @@ namespace RemoteLearning.TheUniverse.Presentation.Commands
 
         public void Execute()
         {
-            AddGalaxyRequest addGalaxyRequest = new AddGalaxyRequest
+            AddStarRequest addStarRequest = new AddStarRequest
             {
-                GalaxyDetailsProvider = new GalaxyDetailsProvider()
+                StarDetailsProvider = new StarDetailsProvider()
             };
-            bool success = (bool)requestBus.Send(addGalaxyRequest);
+
+            bool success = requestBus.Send<AddStarRequest, bool>(addStarRequest);
 
             if (success)
                 DisplaySuccessMessage();
             else
                 DisplayFailureMessage();
         }
+
 
         private static void DisplaySuccessMessage()
         {

@@ -1,7 +1,7 @@
 ﻿namespace RemoteLearning.TheUniverse.Infrastructure
 {
-    public interface IRequestHandler
+    public interface IRequestHandler<TRequest, TResponse> where TRequest : notnull
     {
-        object Execute(object request);
+        TResponse Execute(TRequest request);
     }
 }

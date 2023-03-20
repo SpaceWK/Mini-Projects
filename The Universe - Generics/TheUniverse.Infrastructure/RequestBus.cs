@@ -7,10 +7,12 @@ namespace RemoteLearning.TheUniverse.Infrastructure
     {
         private readonly Dictionary<Type, Type> handlers = new Dictionary<Type, Type>();
 
-        public void RegisterHandler(Type requestType, Type requestHandlerType)
+        public void RegisterHandler<TRequest, TResponse, TRequestHandler>()
+            where TRequest : notnull
+            where TRequestHandler : IRequestHandler<TRequest, TResponse>
         {
-            if (!requestHandlerType.ImplementsInterface(typeof(IRequestHandler)))
-                throw new ArgumentException("requestHandlerType must inherit RequestHandlerBase", nameof(requestHandlerType));
+            Type requestType = typeof(TRequest);
+            Type requestHandlerType = typeof(TRequestHandler);
 
             if (handlers.ContainsKey(requestType))
                 throw new ArgumentException("requestType is already registered.", nameof(requestType));
@@ -18,20 +20,19 @@ namespace RemoteLearning.TheUniverse.Infrastructure
             handlers.Add(requestType, requestHandlerType);
         }
 
-        public object Send(object request)
+        public TResponse Send<TRequest, TResponse>(TRequest request) where TRequest : notnull
         {
-            if (request == null) throw new ArgumentNullException(nameof(request));
-
-            Type requestType = request.GetType();
+            Type requestType = typeof(TRequest);
 
             if (!handlers.ContainsKey(requestType))
                 throw new Exception("Request handler not registered for the specified request.");
 
             Type requestHandlerType = handlers[requestType];
 
-            IRequestHandler requestHandler = (IRequestHandler)Activator.CreateInstance(requestHandlerType);
+            IRequestHandler<TRequest, TResponse> requestHandler = (IRequestHandler<TRequest, TResponse>)Activator.CreateInstance(requestHandlerType);
 
             return requestHandler.Execute(request);
         }
     }
+
 }
