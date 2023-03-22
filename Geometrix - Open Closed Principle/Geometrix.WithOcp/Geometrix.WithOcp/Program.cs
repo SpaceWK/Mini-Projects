@@ -12,7 +12,8 @@ namespace RemoteLearning.Geometrix.WithOcp
                 GeometricShapes geometricShapes = new GeometricShapes
                 {
                     new Rectangle { Height = 4, Width = 7 },
-                    new Circle { Radius = 5 }
+                    new Circle { Radius = 5 },
+                    new Triangle { SideA = 4, SideB = 5, SideC = 6}
                 };
 
                 double area = geometricShapes.CalculateArea();

@@ -1,0 +1,15 @@
+D:\Nagarro\Remote_Learning\Geometrix - Open Closed Principle\Geometrix.NoOcp\Geometrix.NoOcp\bin\Debug\net6.0-windows\RemoteLearning.Geometrix.NoOcp.exe
+D:\Nagarro\Remote_Learning\Geometrix - Open Closed Principle\Geometrix.NoOcp\Geometrix.NoOcp\bin\Debug\net6.0-windows\RemoteLearning.Geometrix.NoOcp.deps.json
+D:\Nagarro\Remote_Learning\Geometrix - Open Closed Principle\Geometrix.NoOcp\Geometrix.NoOcp\bin\Debug\net6.0-windows\RemoteLearning.Geometrix.NoOcp.runtimeconfig.json
+D:\Nagarro\Remote_Learning\Geometrix - Open Closed Principle\Geometrix.NoOcp\Geometrix.NoOcp\bin\Debug\net6.0-windows\RemoteLearning.Geometrix.NoOcp.dll
+D:\Nagarro\Remote_Learning\Geometrix - Open Closed Principle\Geometrix.NoOcp\Geometrix.NoOcp\bin\Debug\net6.0-windows\RemoteLearning.Geometrix.NoOcp.pdb
+D:\Nagarro\Remote_Learning\Geometrix - Open Closed Principle\Geometrix.NoOcp\Geometrix.NoOcp\obj\Debug\net6.0-windows\Geometrix.NoOcp.csproj.AssemblyReference.cache
+D:\Nagarro\Remote_Learning\Geometrix - Open Closed Principle\Geometrix.NoOcp\Geometrix.NoOcp\obj\Debug\net6.0-windows\Geometrix.NoOcp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Nagarro\Remote_Learning\Geometrix - Open Closed Principle\Geometrix.NoOcp\Geometrix.NoOcp\obj\Debug\net6.0-windows\Geometrix.NoOcp.AssemblyInfoInputs.cache
+D:\Nagarro\Remote_Learning\Geometrix - Open Closed Principle\Geometrix.NoOcp\Geometrix.NoOcp\obj\Debug\net6.0-windows\Geometrix.NoOcp.AssemblyInfo.cs
+D:\Nagarro\Remote_Learning\Geometrix - Open Closed Principle\Geometrix.NoOcp\Geometrix.NoOcp\obj\Debug\net6.0-windows\Geometrix.NoOcp.csproj.CoreCompileInputs.cache
+D:\Nagarro\Remote_Learning\Geometrix - Open Closed Principle\Geometrix.NoOcp\Geometrix.NoOcp\obj\Debug\net6.0-windows\RemoteLearning.Geometrix.NoOcp.dll
+D:\Nagarro\Remote_Learning\Geometrix - Open Closed Principle\Geometrix.NoOcp\Geometrix.NoOcp\obj\Debug\net6.0-windows\refint\RemoteLearning.Geometrix.NoOcp.dll
+D:\Nagarro\Remote_Learning\Geometrix - Open Closed Principle\Geometrix.NoOcp\Geometrix.NoOcp\obj\Debug\net6.0-windows\RemoteLearning.Geometrix.NoOcp.pdb
+D:\Nagarro\Remote_Learning\Geometrix - Open Closed Principle\Geometrix.NoOcp\Geometrix.NoOcp\obj\Debug\net6.0-windows\Geometrix.NoOcp.genruntimeconfig.cache
+D:\Nagarro\Remote_Learning\Geometrix - Open Closed Principle\Geometrix.NoOcp\Geometrix.NoOcp\obj\Debug\net6.0-windows\ref\RemoteLearning.Geometrix.NoOcp.dll

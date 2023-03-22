@@ -1,0 +1,20 @@
+Class modified for Geometrix.WithOcp:
+- created a new class for the triangle that implements the Shape Interface and returns the area of the triangle.
+- in the program class: created an instance for the triangle shape with the specified dimensions.
+
+Class modified for Geometrix.NoOcp:
+- created a new class for the triangle where the dimensions are defined.
+- in the geometricShape: Make a new case for the triangle and return the area.
+- in the program class: created an instance for the triangle shape with the specified dimensions.
+
+In conclusion the second project that not use the Open-Close Principle requires more modificationes then the first project.
+
+
+Advantages:
+- the OCP allows me to add new features without affecting the existing functionality.
+- the OCP maked it easier to reuse the existing code by extending it instead of modifying it.
+- you don't have the code in a single class and it makes it more visible
+
+Disadvantages:
+- the structure is more complex, there are many classes 
+- can take longer to implement the OCP logic at the beginnning of the project

@@ -21,6 +21,11 @@ namespace RemoteLearning.Geometrix.NoOcp.ShapeModel
                         area += circle.Radius * circle.Radius * Math.PI;
                         break;
 
+                    case Triangle triangle:
+                        double semiperimeter = (triangle.SideA + triangle.SideB + triangle.SideC) / 2;
+                        area += Math.Sqrt(semiperimeter * (semiperimeter - triangle.SideA) * (semiperimeter - triangle.SideB) * (semiperimeter - triangle.SideC)); 
+                        break;
+
                     default:
                         throw new Exception("Unknown shape.");
                 }
